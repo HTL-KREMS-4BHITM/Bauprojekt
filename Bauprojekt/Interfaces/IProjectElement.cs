@@ -1,8 +1,6 @@
 ﻿namespace Bauprojekt.Interfaces;
 
-public interface IProjectComponent
+public interface IProjectElement
 {
     public string Name { get; set; }
-    public string GetDetails();
-
 }
